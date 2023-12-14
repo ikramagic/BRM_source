@@ -21,8 +21,12 @@
             <%= rental.bicycle.size.humanize %>
           </p>
           <p class="mb-1">
-            <strong>Accessoires :</strong>
-            <%= rental.bicycle.accessories.first&.name %>
+          <strong>Accessoires :</strong>
+          <% if rental.bicycle.accessories.present? %>
+            <%= rental.bicycle.accessories.map(&:accessory_type).join(', ').humanize %>
+          <% else %>
+            Pas d'accessoires disponibles.
+          <% end %>
           </p>
           <p class="mb-1">
             <strong>Etat :</strong>
