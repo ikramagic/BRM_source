@@ -375,5 +375,5 @@ Elle est disponible ici : [Figma Locavelow](https://www.figma.com/file/6xWBCB7yc
 - [Marina](https://github.com/masechkacat)
 - [Sylvain](https://github.com/JerkStanton)
 - [Grégory](https://github.com/100PBaguuette)
+- [Ikrame](https://github.com/ikramagic)
 - [Cyprien](https://github.com/cypradoux)
-- [Ikrame](https://github.com/ikramiste)
